@@ -1,0 +1,53 @@
+body {
+    background-image: url("homewall.jpg");
+    background-color: rebeccapurple;
+}
+h1 {
+    color: fuchsia;
+}
+h2 {
+    text-align: center;
+    font-family: "Impact, fantasy";
+    font-size: 20px;
+    color: orchid;
+}
+div {
+    font-family: "Impact, fantasy";
+    font-size: 70px;
+    outline-style: solid ;
+    margin: 20px;
+    padding: 0 0;
+    text-align: center;
+}
+ul{
+    font-family: "chalkduster, fantasy";
+    font-size: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: fuchsia;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rebeccapurple;
+}
+.gallery{
+    margin: auto;
+    border: 1px solid;
+    width: 1500px;
+    height: 700px;
+    opacity: 0.80;
+}
+.gallery #mm{
+    width: 100%;
+    height: 100%;
+}
